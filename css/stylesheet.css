@@ -1,0 +1,12 @@
+h1 {
+    color: #ffffff;
+    filter: contrast(21);
+}
+body{
+    background-color: #000000;
+    /* filter: contrast(18.97); */
+}
+p{
+    filter: contrast(21);
+    color: #ffffff;
+}
