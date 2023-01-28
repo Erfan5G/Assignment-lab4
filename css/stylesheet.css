@@ -1,12 +1,12 @@
 h1 {
-    color: #ffffff;
+    color: #b52828;
     filter: contrast(21);
 }
 body{
-    background-color: #000000;
+    background-color: rgb(245, 245, 220,18.97);
     /* filter: contrast(18.97); */
 }
 p{
     filter: contrast(21);
-    color: #ffffff;
+    color: #000000;
 }
