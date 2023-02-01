@@ -10,3 +10,10 @@ p{
     filter: contrast(21);
     color: #000000;
 }
+
+
+nav {
+    background-color: aqua;
+    text-align: center;
+    border: 10px double hotpink; 
+}
