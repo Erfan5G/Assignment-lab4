@@ -1,10 +1,12 @@
 h1 {
     color: #b52828;
     filter: contrast(21);
+    font-family: 'Montserrat', sans-serif;;
 }
 body{
     background-color: rgb(245, 245, 220);
     /* filter: contrast(18.97); */
+    font-size: x-large;
 }
 p{
     filter: contrast(21);
