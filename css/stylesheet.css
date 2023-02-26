@@ -13,9 +13,46 @@ p{
     color: #000000;
 }
 
-
+/* Navigation settings -------------------------------------------------------------------------*/
 nav {
     background-color: aqua;
     text-align: center;
     border: 10px double hotpink; 
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Why Erfan... in the top Edit------------------------------------------------------------------*/ 
+.Rank-1-topper { 
+    text-align: center;
+}
+
+
+/* Footer --------------------------------------------------------------------------------------- */
+.copy-right {
+    text-align: center; 
+    color: crimson;
+    margin-top: 50px;
+    background-color: aqua;
+    text-align: center;
+    border: 10px double hotpink; 
+}
+
+/* whole main container as a grid --------------------------------------------------------------- */
+.container-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+/* perfect picture in the middle---------------------------------------------------------------  */
+/* .perfect-picture {
+    ;   
+
+} */
+
+#Goal {
+    margin-top: -10px;
 }
