@@ -47,12 +47,7 @@ nav {
     grid-template-columns: 2fr 1fr;
 
 }
-/* perfect picture in the middle---------------------------------------------------------------  */
-/* .perfect-picture {
-    ;   
-
-} */
-
+/* Goal paragraph at top ------------------------------------------------------------------------ */
 #Goal {
     margin-top: -10px;
 }
