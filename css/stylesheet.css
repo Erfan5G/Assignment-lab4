@@ -55,7 +55,34 @@ nav {
 
 /* Footer Ruls ------------------------------------------------------------------------------------ */ 
 footer {
-    position: fixed;
+
     bottom: 5px;
     width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+
+    .Navigation {
+        display: grid;
+        text-align: center;
+        grid-column: 1fr 1fr ; 
+         
+    }
+    #Courses-list {
+        display: grid; 
+    }
+    div li{
+        text-align: left;
+        border-bottom: 2px rgb(156, 135, 135) ridge; 
+        list-style: none;   
+        padding-bottom: 100px;
+      }
+    }
+
+    @media screen and (max-width:1200px) {
+        .courses-body {
+            display: grid; 
+            grid-template-columns: repeat(1fr, 1fr);
+        }
+
+    }
