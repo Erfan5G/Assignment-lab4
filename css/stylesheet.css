@@ -1,160 +1,106 @@
-h1 {
-    color: #b52828;
-    filter: contrast(21);
-    font-family: 'Montserrat', sans-serif;;
-}
-body{
-    background-color: rgb(245, 245, 220);
-    /* filter: contrast(18.97); */
-    font-size: x-large;
-}
-p{
-    filter: contrast(21);
-    color: #000000;
-}
+  h1 {
+      color: #b52828;
+      filter: contrast(21);
+      font-family: 'Montserrat', sans-serif;;
+  }
+  body{
+      background-color: rgb(245, 245, 220);
+      /* filter: contrast(18.97); */
+      font-size: x-large;
+  }
+  p{
+      filter: contrast(21);
+      color: #000000;
+  }
 
-/* Navigation settings -------------------------------------------------------------------------*/
-nav {
-    background-color: aqua;
-    text-align: center;
-    border: 10px double hotpink; 
-    display: flex;
-    justify-content:space-between; 
-    align-items: center;
+  /* Navigation settings -------------------------------------------------------------------------*/
+  nav {
+      background-color: aqua;
+      text-align: center;
+      border: 10px double hotpink; 
+      display: flex;
+      justify-content:space-between; 
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  /* Why Erfan... in the top Edit------------------------------------------------------------------*/ 
+  .Rank-1-topper { 
+      text-align: center;
+  }
+
+
+  /* Footer --------------------------------------------------------------------------------------- */
+  .copy-right {
+      text-align: center; 
+      color: crimson;
+      margin-top: 50px;
+      background-color: aqua;
+      text-align: center;
+      border: 10px double hotpink; 
+      margin-bottom: 0;
+  }
+
+
+  /* whole main container as a grid --------------------------------------------------------------- */
+  .container-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+
+  }
+  /* Goal paragraph at top ------------------------------------------------------------------------ */
+  #Goal {
+      margin-top: -10px;
+  }
+
+
+  /* Footer Ruls ------------------------------------------------------------------------------------ */ 
+  footer {
+
+      bottom: 5px;
+      width: 100%;
+  }
+
+
+
+
+  nav a {
+    display: flex; 
     flex-direction: column;
-    padding: 10px;
-}
-
-/* Why Erfan... in the top Edit------------------------------------------------------------------*/ 
-.Rank-1-topper { 
+    flex-wrap: wrap; 
     text-align: center;
-}
+  }
+  
+  a {
+    block-size: fit-content;
+    /* width: fit-content; */
 
-
-/* Footer --------------------------------------------------------------------------------------- */
-.copy-right {
-    text-align: center; 
-    color: crimson;
-    margin-top: 50px;
-    background-color: aqua;
-    text-align: center;
-    border: 10px double hotpink; 
-    margin-bottom: 0;
-}
-
-
-/* whole main container as a grid --------------------------------------------------------------- */
-.container-grid {
+  }
+  
+.courses {
+    border-bottom: solid grey;
+  }
+  
+.courses.special {
+    border-bottom: none;
+  }
+  
+@media screen and (min-width: 600px) {
+  .courses {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr; 
+    margin-right: 50px;
+  }
+  .comehere {
+    order: 1;
 
 }
-/* Goal paragraph at top ------------------------------------------------------------------------ */
-#Goal {
-    margin-top: -10px;
+
+nav a {
+  display: inline-flex;
+  margin: 5px; 
+
 }
-
-
-/* Footer Ruls ------------------------------------------------------------------------------------ */ 
-footer {
-
-    bottom: 5px;
-    width: 100%;
-}
-
-/* @media screen and (max-width: 600px) {
-
-    .Navigation {
-        display: grid;
-        text-align: center;
-        grid-column: 1fr 1fr ; 
-         
-    }
-    #Courses-list {
-        display: grid; 
-    }
-    div li{
-        text-align: left;
-        border-bottom: 2px rgb(156, 135, 135) ridge; 
-        list-style: none;   
-        padding-bottom: 60px;
-      }
-      .Courses-- li:last-child {
-        border-bottom: none;
-      }
-    } */
-    /* @media screen and (max-width: 600px) {
-        .Courses-- li div p:first-child {
-          margin-top: 0;
-        }
-      
-        .Courses-- li {
-          flex-direction: column;
-          border: 2px solid brown; 
-          justify-content: center;
-          text-align: left;
-        }
-      
-        .Courses-- li div {
-          margin-left: 0;
-          padding-bottom: 50px;
-        }
-      
-        /* target h2 element inside div element */
-        /* .Courses-- li div h2 {
-          text-align: left;
-        }
-      }
-      
-      @media screen and (max-width: 1300px) {
-        .Courses-- li {
-          display: flex;
-          align-items: start;
-          justify-content: space-between;
-          margin-bottom: 20px;
-        }
-      
-        .Courses-- li div {
-          flex: 1 1 0;
-          padding-bottom: 50px;
-        }
-      
-        div li {
-          padding-bottom: 10px;
-          border-bottom: 2px rgb(156, 135, 135) ridge;
-          display: flex;
-          flex-wrap: wrap;
-          gap: 50px;
-        }
-      }
-        */
-
-
+  }
         
-        a {
-          block-size: fit-content;
-          width: fit-content;
-        }
-        
-      .courses {
-          border-bottom: solid grey;
-        }
-        
-      .courses.special {
-          border-bottom: none;
-        }
-        
-      @media screen and (min-width: 600px) {
-      
-        }
-      
-      @media screen and (min-width:1200px) {
-          .courses {
-              display: grid;
-              grid-template-columns: 1fr 1fr;
-            }
-            .comehere {
-              order: 1;
-          }
-          
-      }
