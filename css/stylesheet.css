@@ -83,7 +83,7 @@ footer {
         border-bottom: none;
       }
     } */
-    @media screen and (max-width: 600px) {
+    /* @media screen and (max-width: 600px) {
         .Courses-- li div p:first-child {
           margin-top: 0;
         }
@@ -101,7 +101,7 @@ footer {
         }
       
         /* target h2 element inside div element */
-        .Courses-- li div h2 {
+        /* .Courses-- li div h2 {
           text-align: left;
         }
       }
@@ -127,4 +127,34 @@ footer {
           gap: 50px;
         }
       }
+        */
+
+
+        
+        a {
+          block-size: fit-content;
+          width: fit-content;
+        }
+        
+      .courses {
+          border-bottom: solid grey;
+        }
+        
+      .courses.special {
+          border-bottom: none;
+        }
+        
+      @media screen and (min-width: 600px) {
       
+        }
+      
+      @media screen and (min-width:1200px) {
+          .courses {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+            }
+            .comehere {
+              order: 1;
+          }
+          
+      }
