@@ -8,7 +8,7 @@ let userNumber = prompt("Enter a 4-digit number:");
 
 while (userNumber.length !== 4 || isNaN(userNumber)) {
     userNumber = prompt("Invalid input. Please enter a 4-digit number:");
-  }
+  };
 
 let courseFound = false;
 
@@ -18,11 +18,10 @@ for (let i = 0; i < courseList.length; i++) {
       courseFound = true;
       break;
     }
-  }
+  };
   
 if (!courseFound) {
-    const newCourse = { code: 'ACIT ${userNumber}', name: null };
+    const newCourse = { code: `ACIT ${userNumber}`, name: null };
     courseList.push(newCourse);
     console.log(`Added new course: ${newCourse.code}`);
-  }
-  
+  }; 
