@@ -13,6 +13,9 @@
       color: #000000;
   }
 
+  .green-background {
+    background-color: green;
+  }
   /* Navigation settings -------------------------------------------------------------------------*/
   nav {
       background-color: aqua;
